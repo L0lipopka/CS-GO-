@@ -91,3 +91,16 @@ h1{
 .ancient{
     background-image: url(images/ancient.png);
 }
+footer{
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer a{
+    width: 3%;
+}
+footer img{
+    width: 100%;
+}
