@@ -1,0 +1,93 @@
+/* h1{
+    color: red                   ;
+}        */
+body,h1,h2,h3,p{
+    margin: 0;
+}
+ol{
+    padding-left: 100px;
+}
+body{
+    font-family: 'Fira Sans Condensed';
+    color: #FFFFFF;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #B4AF5D;
+    padding: 20px;
+}
+nav{
+    width:50% ;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width:5% ;
+}
+.link{
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+}
+.best_map,.mirage,.inferno,.overpass,.nuke,.dust2,.train,.vertigo,.ancient{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 820px;
+}
+.mirage h2,.inferno h2,.overpass h2,.nuke h2,.dust2 h2,.train h2,.vertigo h2,.ancient h2{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 64px;
+}
+.mirage h3,.inferno h3,.overpass h3, .nuke h3,.dust2 h3,.train h3,.vertigo h3,.ancient h3{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.mirage li,.inferno li,.overpass li,.best_map li,.nuke li,.dust2 li,.train li,.vertigo li,.ancient li{
+    font-weight: 400;
+    font-size: 40px;
+}
+.smoke_on_mirage,.smoke_on_inferno,.smoke_on_overpass,.smoke_on_nuke,.smoke_on_dust2,.smoke_on_train,.smoke_on_vertigo,.smoke_on_ancient{
+    display: flex;
+    justify-content: space-around;
+    width: 70% ;  
+}
+.best_map{
+    background-image: url(images/maps.png);
+}
+h1{
+    font-weight: 700;
+    font-size: 64px;
+}
+.mirage{
+    background-image: url(images/mirage.png);   
+}
+.inferno{
+    background-image: url(images/inf.png);
+}      
+.overpass{
+    background-image: url(images/over.png);
+    background-position: bottom;
+}
+.nuke{
+    background-image: url(images/nuke.png);   
+}
+.dust2{
+    background-image: url(images/dust2.png);
+}
+.train{
+    background-image: url(images/train.png);
+}
+.vertigo{
+    background-image: url(images/vertigo.png);
+}
+.ancient{
+    background-image: url(images/ancient.png);
+}
